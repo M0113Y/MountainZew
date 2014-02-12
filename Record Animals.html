@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Animal Search / Mountain Zew</title>
+        <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body id="create_animal">
+        <div id="header">
+            <img id="logo" src="images/logo.png" alt="Moutain Zew" />
+            <img id="slogan" src="images/slogan.png" alt="Zoo the zew." />
+        </div>
+        <div id="main">
+            <h1>Add Animal</h1>
+            <form id="animal-form" name="animal-form" action="add_animal.php" method="post">                
+                <div><label for="name">Name</label><input id="name" name="name" type="text" value="" /></div>
+                <div><label for="species">Species</label><select id="species" name="species">                    </select></div>
+                <div><label for="date_of_birth">Date of Birth</label><input id="date_of_birth" class="date" name="date_of_birth" type="text" value="" /></div>
+                <div><label for="acquired_from">Acquired From</label><input id="acquired_from" name="acquired_from" type="text" value="" /></div>
+                <div><label for="date_acquired">Date Acquired</label><input id="date_acquired" class="date" name="date_acquired" type="text" value="" /></div>
+                <div><label for="enclosure">Enclosure</label><select id="enclosure" name="enclosure"></select></div>
+                <div class="form-actions"><button type="submit">Add Animal</button></div>
+            </form>
+        </div>
+    </body>
+</html>

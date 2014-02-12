@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    line-height: 135%;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #101010;
+    background-color: #f7f7f3;
+}
+
+img {
+    border: none;
+}
+
+#header {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #a6d34f;
+}
+
+#logo {
+    width: 139px;
+    height: 100px;
+}
+
+#slogan {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -79px;
+    width: 158px;
+    height: 18px;
+}
+
+#session {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0.875em;
+    color: #ffffff;
+}
+
+#session a {
+    color: #ffffff;
+}
+
+#menu {
+    margin: 20px 20px 30px 20px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.875em;
+}
+
+#menu li {
+    display: inline-block;
+}
+#menu li + li {
+    margin-left: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main {
+    margin: 20px;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 1.0625em;
+}
+
+h2 {
+    margin: 15px 0;
+    font-size: 0.9375em;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 0.875em;
+}
+
+form div + div {
+    margin-top: 8px;
+}
+
+label {
+    display: inline-block;
+    font-size: 0.875em;
+}
+
+input,
+select {
+    padding: 3px;
+    border: solid 1px #b0b0b0;
+}
+
+.form-actions {
+    margin-top: 15px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 0.8125em;
+    font-weight: bold;
+    color: #ffffff;
+    border: solid 1px #b0b0b0;
+    background-color: #d20101;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;    
+}
+
+th,
+td {
+    padding: 5px;
+    font-size: 0.875em;    
+}
+
+th {    
+    color: #ffffff;    
+    border: solid 1px #d20101;
+    background-color: #d20101;
+}
+
+td {
+    border: solid 1px #b0b0b0;
+}
+tr:hover td {
+    color: #ffffff;
+    background: #404040;
+}
+
+td a {
+    display: inline-block;
+    margin: -5px;
+    width: 100%;
+    padding: 100%;
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+}
+td a:hover {
+    text-decoration: none;
+}
+
+#main ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 0.875em;
+}
+
+input.date {
+    width: 100px;
+}
+
+#main .form-errors {
+    padding-left: 0;
+    list-style: none;
+    color: #d20101;
+}
+
+#login label {    
+    width: 100px;
+}
+
+#login input {
+    width: 150px;
+}
+
+#login .form-actions {
+    padding-left: 100px;
+}
+
+#search label {
+    width: 100px;
+}
+
+#name {
+    width: 150px;
+}
+
+#species {
+    width: 250px;
+}
+
+#search .form-actions {
+    padding-left: 100px;
+}
+
+#create_animal label {
+    width: 150px;
+}
+
+#create_animal #acquired_from,
+#edit_animal #acquired_from {
+    width: 250px;
+}

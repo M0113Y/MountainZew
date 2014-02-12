@@ -1,0 +1,24 @@
+#record_animal_food label
+{
+  width: 150px;
+}
+
+#animal
+{
+ width: 100px;
+}
+
+#food_date, #food_time
+{
+  width: 50px;
+}
+
+#food
+{
+  width: 150px;
+}
+
+#servings
+{
+  width: 30px;
+}

@@ -1,0 +1,24 @@
+#record_animal_meds label
+{
+  width: 150px;
+}
+
+#animal
+{
+ width: 100px;
+}
+
+#med_date, #med_time
+{
+  width: 50px;
+}
+
+#med
+{
+  width: 150px;
+}
+
+#doses
+{
+  width: 30px;
+}
