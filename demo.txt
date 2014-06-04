@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "MyStyle.css"/>
+
+</head>
+
+<body>
+
+<div id=main>
+
+<div id=header>
+<h1>Program Name System</h1>
+
+</div>
+
+
+<form 
+
+<div class="tabs">
+    
+   <div class="tab">
+       
+       <input type="radio" id="tab1" name="tabgroup1" checked>
+       <label for="tab1">Legacy</label>
+       
+<div class="content">
+
+<h2>Object Selection</h2>
+<hr/>
+
+
+<table>
+<tr>
+  
+<td><label for="tab1">Beginning Letter:</label></td>
+  
+<td>
+
+<select>
+	<option value=""></option>
+	<option value="A">A</option>
+	<option value="B">B</option>
+	<option value="C">C</option>
+	</select> 
+</td>	
+</tr>
+
+<tr>
+  <td><label for="tab1">Object Type:</label></td>
+  <td>
+	<select>
+	<option value=""></option>
+	<option value="2">2-Distributed</option>
+	<option value="4">4-AS400</option>
+	<option value="A">A-Assembler</option>
+	</select>
+ </td>		
+</tr>
+
+<tr>
+  <td><label for="tab1">Support Area:</label></td>
+  <td>
+	<select>
+	<option value=""></option>
+	<option value="IT">IT</option>
+	<option value="Merch">Merch</option>
+	<option value="Idk">Interns</option>
+	</select>
+ </td>		
+</tr>
+
+<tr>
+  <td><label for="tab1">Application Name:</label></td>
+  <td>
+	<input type="text" id="tab1" name="tabgroup1">
+ </td>		
+</tr>
+
+<tr>
+  <td><input type="submit" id="tab1" name="tabgroup1" value="Submit"></td>
+  
+  <td><input type="reset" id="tab1" name="tabgroup1" value="Reset"></td>
+
+ </td>		
+</tr>
+
+</table>
+	
+
+	         
+
+       </div> 
+   </div>
+
+
+<div class="tab">
+       <input type="radio" id="tab2" name="tabgroup1">
+       <label for="tab2">Broker</label>
+       
+       <div class="content">
+           broker stuff
+       </div> 
+   </div>
+    
+    <div class="tab">
+       <input type="radio" id="tab3" name="tabgroup1">
+       <label for="tab3">Other Tabs</label>
+     
+       <div class="content">
+           other tab stuff
+       </div> 
+   </div>
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
