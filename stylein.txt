@@ -1,0 +1,111 @@
+<div id=main>
+   
+   <h1>Development Object Maintenance</h1>
+  
+       <div id=tabContainer>
+        <asp:Button ID=tab1  runat=server Text=Display  CssClass=tabClicked OnClick=Tab1OnClick />
+        <asp:Button ID=tab2  runat=server Text=Legacy  CssClass=tabs OnClick=Tab2OnClick />
+        <asp:Button ID=tab3  runat=server Text=Other  CssClass=tabs OnClick=Tab3OnClick />
+
+        <div id=tabhead></div>
+      
+  </div> 
+        
+    <div id=content> 
+
+</div>
+
+body 
+{
+ font-family:Arial;
+}
+
+#main
+{
+    width: 739px;
+    margin: 0 auto;
+    background:white;
+}
+
+#content 
+{        
+    border:1px solid #ccc;
+    height:420px;
+}
+
+#tabContainer
+{
+    width:100%;
+    display:inline-block;
+}
+
+#tabhead
+{
+    margin-top:48px;
+    width:100%;
+    height:10px;
+    background: #CCCCCC;  /* for images use #0A284B url(image.jpg)
+    background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#FFFFFF));
+    background: -webkit-linear-gradient(#CCCCCC, #FFFFFF);
+    background: -moz-linear-gradient(top, #CCCCCC, #FFFFFF);
+    background: -ms-linear-gradient(#CCCCCC, #FFFFFF);
+    background: -o-linear-gradient(#CCCCCC, #FFFFFF);
+    background: linear-gradient(#CCCCCC, #FFFFFF);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='#FFFFFF');*/
+}
+
+.tabs
+{
+    float:left;
+    padding:10px;
+    position:relative;
+    margin:5px;  
+    font-size:16px;
+    font-weight:bold; 
+    color:Black;
+    border:1px solid #ccc;
+    
+    background: #FFFFFF;  /* for images use #0A284B url(image.jpg)*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CCCCCC));
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC);
+    background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+    background: -ms-linear-gradient(#FFFFFF, #CCCCCC);
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC);
+    background: linear-gradient(#FFFFFF, #CCCCCC);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCCCCC');    
+}
+
+.tabClicked
+{
+    float:left;
+    padding:10px;
+    position:relative;
+    margin:5px;  
+    font-size:16px;
+    font-weight:bold; 
+    color:Black;
+    border:1px solid #ccc;
+    
+    background: #CCCCCC;  /* for images use #0A284B url(image.jpg)
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CCCCCC));
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC);
+    background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+    background: -ms-linear-gradient(#FFFFFF, #CCCCCC);
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC);
+    background: linear-gradient(#FFFFFF, #CCCCCC);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCCCCC');    */
+}
+
+
+
+.grid TH
+{
+    background: #ccc;
+    color:White;
+}
+
+.grid TR
+{
+    background:white;
+    color:Black;
+}
